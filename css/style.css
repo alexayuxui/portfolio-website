@@ -250,8 +250,8 @@ Medium devices (640px and larger)
     width: 50%;
   }
 
-  .col-md-5x {
-    width: 20%;
+  .col-md-x {
+    width: 50%;
   }
 
 
@@ -263,10 +263,26 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
+
+  .col-md-x {
+    width: 20%;
+  }
+
 }
+
+
+
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+
+  .col-md-x {
+    width: 20%;
+  }
+
+
 }
 
