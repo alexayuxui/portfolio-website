@@ -246,16 +246,33 @@ Medium devices (640px and larger)
        
    }
 
-   .col-md-3 {
+  .col-md-3 {
     width: 23%;
     padding: 1% 1% 1% 1%;
-    
   }
 
-   .col-md-x {
+  .col-md-x {
     width: 20%;
-    
   }
+
+
+
+  .col-md-6 ul {
+    font-size: 1.35em;
+    font-weight: 400;
+    list-style-type: none;
+    padding-left: 33%;
+  }
+  
+  .col-md-6 li {
+    list-style-type: none;
+    padding-left: 33%;    
+  }
+
+
+
+
+
 
 
   [class*="col-"] {
