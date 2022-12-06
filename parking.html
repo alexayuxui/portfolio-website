@@ -20,7 +20,8 @@
     <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-      
+    <script src="https://kit.fontawesome.com/29ee38edb8.js" crossorigin="anonymous"></script>
+
   </head>
 
 
@@ -28,14 +29,17 @@
 <body>
   <header>
     <div class="container">
-      <a href="index.html"><img src="img/logo/logo.svg" alt="Logo" class="logoimg"></a>
-      <nav>
-        <ul>
-          <li><a class="header-link" href="index.html">Home</a></li>
-          <li><a class="header-link" href="about.html">About</a></li>
-          <li><a class="header-link" href="#contact">Contact</a></li>         
-        </ul>        
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img src="img/logo/logo.svg" alt="Logo" class="logoimg"></a>
+        <nav>
+          <ul>
+            <li><a class="header-link" href="index.html">Home</a></li>
+            <li><a class="header-link" href="about.html">About</a></li>
+            <li><a class="header-link" href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>         
+          </ul>        
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -146,7 +150,7 @@
             <div class="col-md-6"><!--right column-->
               <h4>User Interview</h4>            
               <p>I conducted an interview with 6 targeted users. The purpose was to figure out the painpoints and concerns on finding parking slots in the city.</p>
-              <div>
+              <div class="navtoggle" id="myNavtoggle">
                 <p><a href="#" class="button">View Questions and Answers</a></p>
               </div>
             </div>  
@@ -483,6 +487,7 @@
     </div>
   </footer>
   
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 
 </body>
