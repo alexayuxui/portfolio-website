@@ -95,44 +95,6 @@ nav > ul > li > a {
 }
 
 
-
-.read-more-container {
-  display: inline;
-}
-
-.more {
-  display: none;
-}
-
-.more, .more.responsive {
-  position: relative;
-}
-
-.more.responsive li  {
-  display: block;
-  padding: 10px 0;
-}
-
-.more.responsive li:first-child  {
-  display: none;
-}
-
-.more.responsive li:last-child  {
-  padding: 0 2px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 #hero {
   background-color: #f5f5f5;
   padding: 0px 0; /*20px 0*/
@@ -275,40 +237,6 @@ img {
     border-radius: 3px;
     border-bottom: 2px solid #020e0d;
     transition: 0.2s opacity;
-}
-
-.read-more-btn {
-  display: inline-block;
-  background-color: #081631;
-  color: #efb624;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #020e0d;
-  transition: 0.2s opacity;
-  
-}
-
-
-.read-more-btn:hover {
-  opacity: 0.6;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.text.show-more .more-detail{
-  display: inline;
-
-}
-
-
-
-.more-detail{
-  display: none;
-}
-
-.more-detail--show{
-  display: inline;
 }
 
 .fas {
