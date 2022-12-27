@@ -299,9 +299,11 @@ img {
     color: #efb624;
     font-weight: 400;
     padding: 10px;
+    text-align: center;
     border-radius: 3px;
     border-bottom: 2px solid #020e0d;
     transition: 0.2s opacity;
+    width: 100%;
 }
 
 .read-more-btn {
@@ -313,7 +315,7 @@ img {
   border-radius: 3px;
   border-bottom: 2px solid #020e0d;
   transition: 0.2s opacity;
-  
+  width: 100%;
 }
 
 
@@ -347,6 +349,11 @@ img {
 
 .col-md-2 {
   display: none;
+}
+
+.col-md-2a {
+  max-width: 200px;
+  padding: 1%; 
 }
 
 
@@ -430,6 +437,10 @@ Medium devices (640px and larger)
     padding: 1%; 
   }
   
+  .col-md-2a {
+    display: none; 
+  }
+
   .col-md-3 {
     display: inline;
     width: 25%;
