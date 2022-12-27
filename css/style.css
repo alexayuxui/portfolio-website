@@ -468,15 +468,14 @@ Medium devices (640px and larger)
     padding: 1%;
   }
 
-  .col-md-10a {
-    display: inline;
-    width: 100%;
-    padding: 0% 20% 0% 20%;
-  }
-
   .col-md-8 {
     width: 80%;
     padding: 0%;
+  }
+
+  .col-md-8a {
+    width: 80%;
+    padding-top: 2%;
   }
 
   .col-md-10 {
@@ -485,6 +484,11 @@ Medium devices (640px and larger)
     text-align: left;
   }
 
+  .col-md-10a {
+    display: inline;
+    width: 100%;
+    padding: 0% 20% 0% 20%;
+  }
 
 
 
